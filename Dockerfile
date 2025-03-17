@@ -28,7 +28,6 @@ WORKDIR /usr/src
 
 # Copy app source
 COPY . .
-COPY /knowledge /knowledge
 
 RUN pnpm install
 
